@@ -1,6 +1,6 @@
 ﻿use DB_2k19_11_SieuTriTue
 
-insert into NGUOI(CMND, HoTen, NgaySinh, QuocTinh, MoTa) values
+insert into NGUOI(CMND, HoTen, NgaySinh, QuocTich, MoTa) values
 ('000000000001', 'Nguyen Van A', '07-01-1995', 'VN', 'mota'),
 ('000000000002', 'Nguyen Van A', '07-01-1995', 'VN', 'mota'),
 ('000000000003', 'Nguyen Van A', '07-01-1995', 'VN', 'mota'),
@@ -81,4 +81,6 @@ insert into TRANDAU_BGK_KM(MaTranDau, CMND, Loai) values
 ('2', '000000000020', 'BGK'),
 ('3', '000000000021', 'KM'),
 ('3', '000000000023', 'BGK')
+
+
 
